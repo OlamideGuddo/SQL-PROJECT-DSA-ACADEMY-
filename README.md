@@ -167,7 +167,33 @@ GROUP BY order_priority, ship_mode
 ```
 Insight: Higher order priority aligns with higher shipping costs.
 
+Recommendation: To manage logistics costs, KMS should analyze whether high-priority orders are being over-served with unnecessarily premium shipping. Balancing customer urgency and cost-effectiveness could improve overall profit margins.
 
+Interpretation: If Delivery Truck is the cheapest but slowest and Express Air is the fastest but most expensive, then ideally high-priority orders should go through Express Air and low-priority orders through Delivery Truck. Based on the data, KMS is mostly spending appropriately. However, they should ensure that Express Air isn’t being used for low-priority orders, which would waste resources.
+
+## Summary of Key Insights
+
+- Technology is the highest performing category by sales and profit.
+
+- Corporate customers place more frequent orders over time.
+
+- High discounts do not always translate to higher profitability.
+
+- Sales are concentrated in certain regions, while others underperform.
+
+- Shipping costs are higher for faster or premium shipping modes.
+
+- Returns are more common among Consumer and Home Office segments
+
+## Final Note: What I Learned
+
+This case study helped me apply SQL to real-world business scenarios. 
+1.  Practiced writing aggregate queries and filtering with GROUP BY, WHERE, and ORDER BY.
+2.  Understood the value of linking business questions to specific data patterns.
+3.  Gained confidence working with JOINs, CTEs, and numeric data types.
+4.  Learned how to turn SQL outputs into insights that drive decisions.
+
+# Thanks to the data community and ChatGPT for guidance through this project!
 
 
 
